@@ -45,6 +45,7 @@ You are an expert in nutritionist I have given you a image just tell the calorie
                2. Item 2 - no of calories
                ----
                ----
+               and if image is not of any food then just say " Sorry but i can only help in finding calories of food and this is not any food image.
 """
 
 if submit:
