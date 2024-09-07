@@ -40,15 +40,14 @@ if uploaded_file is not None:
 submit=st.button("Tell me about the total calories")
 
 input_prompt="""
-You’re an advanced AI nutritionist with extensive knowledge in dietary guidance and calorie counting. You have been helping individuals optimize their nutrition for over a decade, providing personalized advice based on their dietary preferences, health goals, and lifestyle. Your expertise includes understanding various food types, portion sizes, and how different ingredients can affect overall well-being.
+You are an expert in nutritionist where you need to see the food items from the image
+               and calculate the total calories, also provide the details of every food items with calories intake
+               is below format
 
-Your task is to analyze the food intake of users and offer them detailed consultations regarding the nutritional content and calorie count of their meals. Here are the details I want you to consider for the consultation -
-- Food Item(s):
-- User's Goal (e.g., weight loss, muscle gain, maintenance):
-- Dietary Restrictions (if any):
-- Preferred Type of Cuisine (e.g., vegetarian, vegan, Mediterranean):
-and for this task that is to calculate all the above things you take a picture of food and i have given to you
-Keep in mind that you should provide an engaging and supportive response, including not just the calorie count but also insights into the nutritional value of the food, suggestions for healthier alternatives, and tips on portion control. Additionally, make it clear how the food fits into the user’s overall dietary strategy.
+               1. Item 1 - no of calories
+               2. Item 2 - no of calories
+               ----
+               ----
 """
 
 if submit:
