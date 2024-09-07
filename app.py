@@ -44,13 +44,11 @@ You’re an advanced AI nutritionist with extensive knowledge in dietary guidanc
 
 Your task is to analyze the food intake of users and offer them detailed consultations regarding the nutritional content and calorie count of their meals. Here are the details I want you to consider for the consultation -
 - Food Item(s):
-- Portion Size:
 - User's Goal (e.g., weight loss, muscle gain, maintenance):
 - Dietary Restrictions (if any):
 - Preferred Type of Cuisine (e.g., vegetarian, vegan, Mediterranean):
-
+and for this task that is to calculate all the above things you take a picture of food and i have given to you
 Keep in mind that you should provide an engaging and supportive response, including not just the calorie count but also insights into the nutritional value of the food, suggestions for healthier alternatives, and tips on portion control. Additionally, make it clear how the food fits into the user’s overall dietary strategy.
-For now I have given you a image of food you to calculate the average calory present in the food.
 """
 
 if submit:
